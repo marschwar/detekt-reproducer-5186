@@ -11,5 +11,5 @@ dependencies {
 }
 
 detekt {
-    buildUponDefaultConfig = true
+    config.setFrom(project.rootProject.file("config/detekt/detekt.yml"))
 }
