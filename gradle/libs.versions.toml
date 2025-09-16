@@ -9,4 +9,4 @@ kotlin = "2.2.0"
 kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 
 [plugins]
-detekt = { id = "io.gitlab.arturbosch.detekt", version = "1.23.7"}
+detekt = { id = "io.gitlab.arturbosch.detekt", version = "1.23.8"}
